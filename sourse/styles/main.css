@@ -1,13 +1,14 @@
 @import url("https://fonts.googleapis.com/css?family=Michroma&display=swap");
 html,
 body {
-  background-size: cover;
+  background-size: contain;
 }
 body {
   font-family: Michroma, serif;
   background: linear-gradient(0deg, #b939fe 0%, #260038 100%);
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
+  
   
 }
 .sidebar {
@@ -17,7 +18,7 @@ body {
 .card {
   background: linear-gradient(180deg, #b939fe 0%, #260038 100%);
   color: aquamarine;
-  display: table;
+ 
 }
 .carousel-text {
   color: aquamarine;
@@ -36,4 +37,7 @@ body {
   display: flex;
   justify-content: center;
   margin-top: 30px;
+}
+.card-body{
+  justify-content:end;
 }
