@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css?family=Michroma&display=swap");
+html,
+body {
+  background-size: cover;
+}
+body {
+  font-family: Michroma, serif;
+  background: linear-gradient(0deg, #b939fe 0%, #260038 100%);
+  background-repeat: no-repeat;
+  background-size: contain;
+  
+}
+.sidebar {
+  color: aquamarine;
+  background: linear-gradient(180deg, #b939fe 0%, #260038 100%);
+}
+.card {
+  background: linear-gradient(180deg, #b939fe 0%, #260038 100%);
+  color: aquamarine;
+  display: table;
+}
+.carousel-text {
+  color: aquamarine;
+  margin: auto auto;
+}
+@media (max-width: 755px) {
+  .carousel-indicators {
+    display: none;
+  }
+}
+.footer-text{
+  margin-top: 50px;
+  color: aquamarine;
+}
+.media-links{
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
